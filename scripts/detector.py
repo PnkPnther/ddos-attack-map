@@ -5,6 +5,12 @@ import joblib
 import pandas as pd
 import numpy as np
 
+#-----------------------------------------------------------------------------
+# OLD MODEL
+#-----------------------------------------------------------------------------
+
+
+
 # Load the saved model and scaler
 print("Loading anomaly detection system...")
 
@@ -116,7 +122,7 @@ try:
                         else:
                             reason = "cluster pattern"
 
-                        print(f"Alert: possible DDoS from {ip} | Reason: {reason} | Size: {avg_size:.1f}b")
+                        print(f"ALERT: possible DDoS from {ip} | Reason: {reason} | Size: {avg_size:.1f}b")
                     else:
                         print(f"Normal traffic: {ip} | Size: {avg_size:.1f}b | PPS: {pps:.1f}")
 
