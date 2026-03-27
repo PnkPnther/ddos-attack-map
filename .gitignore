@@ -1,0 +1,13 @@
+# Environments
+venv/
+__pycache__/
+
+# Datasets and Models
+*.csv
+*.pcap
+*.pkl
+*.parquet
+data/
+
+# OS generated files
+.DS_Store
