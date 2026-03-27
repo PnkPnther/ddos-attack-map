@@ -1,15 +1,13 @@
+#-----------------------------------------------------------------------------
+# OLD DETECTOR
+#-----------------------------------------------------------------------------
+
 import pyshark
 import time
 from collections import defaultdict
 import joblib
 import pandas as pd
 import numpy as np
-
-#-----------------------------------------------------------------------------
-# OLD MODEL
-#-----------------------------------------------------------------------------
-
-
 
 # Load the saved model and scaler
 print("Loading anomaly detection system...")
